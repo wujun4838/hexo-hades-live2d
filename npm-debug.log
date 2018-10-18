@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   'hexo-hades-live2d' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ 'hexo-hades-live2d' ]
+5 silly cache add args [ 'hexo-hades-live2d', null ]
+6 verbose cache add spec hexo-hades-live2d
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: 'hexo-hades-live2d',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: 'hexo-hades-live2d',
+7 silly cache add   name: 'hexo-hades-live2d',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: 'latest',
+7 silly cache add   type: 'tag' }
+8 silly addNamed hexo-hades-live2d@latest
+9 verbose addNamed "latest" is being treated as a dist-tag for hexo-hades-live2d
+10 info addNameTag [ 'hexo-hades-live2d', 'latest' ]
+11 silly mapToRegistry name hexo-hades-live2d
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'hexo-hades-live2d',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'hexo-hades-live2d',
+14 silly mapToRegistry   name: 'hexo-hades-live2d',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/hexo-hades-live2d
+16 verbose addNameTag registry:https://registry.npmjs.org/hexo-hades-live2d not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/hexo-hades-live2d
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 19:25:01
+20 verbose request using bearer token for auth
+21 verbose request id ddb670ef236727ac
+22 http request GET https://registry.npmjs.org/hexo-hades-live2d
+23 http 404 https://registry.npmjs.org/hexo-hades-live2d
+24 verbose headers { date: 'Thu, 18 Oct 2018 11:25:00 GMT',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-length': '21',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'set-cookie': [ '__cfduid=db48f721bd2eecd9b60200348c76aa88b1539861899; expires=Fri, 18-Oct-19 11:24:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+24 verbose headers   'cf-cache-status': 'MISS',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'cf-ray': '46baa4473ef24662-TPE',
+24 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 verbose headers   vary: 'accept-encoding, accept',
+24 verbose headers   server: 'cloudflare' }
+25 silly get cb [ 404,
+25 silly get   { date: 'Thu, 18 Oct 2018 11:25:00 GMT',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-length': '21',
+25 silly get     connection: 'keep-alive',
+25 silly get     'set-cookie': [ '__cfduid=db48f721bd2eecd9b60200348c76aa88b1539861899; expires=Fri, 18-Oct-19 11:24:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+25 silly get     'cf-cache-status': 'MISS',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'cf-ray': '46baa4473ef24662-TPE',
+25 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 silly get     vary: 'accept-encoding, accept',
+25 silly get     server: 'cloudflare' } ]
+26 verbose stack Error: Not found : hexo-hades-live2d
+26 verbose stack     at makeError (E:\nvm\v6.11.2\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+26 verbose stack     at CachingRegistryClient.<anonymous> (E:\nvm\v6.11.2\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+26 verbose stack     at Request._callback (E:\nvm\v6.11.2\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+26 verbose stack     at Request.self.callback (E:\nvm\v6.11.2\node_modules\npm\node_modules\request\request.js:187:22)
+26 verbose stack     at emitTwo (events.js:106:13)
+26 verbose stack     at Request.emit (events.js:191:7)
+26 verbose stack     at Request.<anonymous> (E:\nvm\v6.11.2\node_modules\npm\node_modules\request\request.js:1048:10)
+26 verbose stack     at emitOne (events.js:96:13)
+26 verbose stack     at Request.emit (events.js:188:7)
+26 verbose stack     at IncomingMessage.<anonymous> (E:\nvm\v6.11.2\node_modules\npm\node_modules\request\request.js:969:12)
+27 verbose statusCode 404
+28 verbose pkgid hexo-hades-live2d
+29 verbose cwd F:\TGit\hexo-hades-live2d
+30 error Windows_NT 6.1.7601
+31 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "hexo-hades-live2d"
+32 error node v6.11.2
+33 error npm  v3.10.10
+34 error code E404
+35 error 404 Not found : hexo-hades-live2d
+36 error 404
+37 error 404 'hexo-hades-live2d' is not in the npm registry.
+38 error 404 You should bug the author to publish it (or use the name yourself!)
+39 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]

@@ -1,0 +1,19 @@
+{
+  "name": "hexo-hades-live2d",
+  "version": "1.0.0",
+  "description": "hades use for live2d scale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wujun4838/hexo-hades-live2d.git"
+  },
+  "author": "hades",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wujun4838/hexo-hades-live2d/issues"
+  },
+  "homepage": "https://github.com/wujun4838/hexo-hades-live2d#readme"
+}

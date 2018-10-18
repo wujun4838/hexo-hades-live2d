@@ -1,0 +1,1 @@
+module.exports = require('./lib/hexo-hades-live2d');
