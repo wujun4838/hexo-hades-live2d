@@ -1,1 +1,1 @@
-module.exports = require('./lib/hexo-hades-live2d');
+//module.exports = require('./lib/hexo-hades-live2d');
