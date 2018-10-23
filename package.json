@@ -1,6 +1,6 @@
 {
   "name": "hexo-hades-live2d",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hades use for live2d scale",
   "main": "index.js",
   "scripts": {
